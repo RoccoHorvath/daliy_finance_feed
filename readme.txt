@@ -1,11 +1,10 @@
-mortgage_rates.py will send you an email everyday of the current mortgage rates listed on MortgageNewsDaily.com
+send_email.py will send you an email everyday of the current mortgage rates listed on MortgageNewsDaily.com and market data from Yahoo Finance.
 
-You will need a email address to send from and receive to. The email address(es) should be stored as environment varibles on your system along with the password to the sending email address's account.
+You will need an email address to send from and one to receive the email although they can be the same. The email address(es) and password to the sender's email account should be stored as environment varibles on your system.
 
 Varibles should be saved with the below names:
 sender_email_address
 email_password
 receiver_email_address
 
-This can be setup to run daily by scheduling a task to run the script everyday. You should pick a time after 4PM ET as that is when the rates are updated. 
-
+The script should be set to run daily between 22:00 and 23:59 GMT.
